@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Virtual Zoo</title>
+    <link rel="stylesheet" href="first.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to the Virtual Zoo</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Animals</a></li>
+                <li><a href="#">Events</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="intro">
+            <h2>Explore the Fascinating World of Wildlife</h2>
+            <p>Step into the virtual zoo and embark on a journey to discover the wonders of nature. Encounter a diverse range of animals, from majestic lions to playful dolphins, all from the comfort of your home.</p>
+            <a href="#" class="btn">Get Started</a>
+        </section>
+        <section id="featured-animals">
+            <h2>Featured Animals</h2>
+            <div class="animal-card">
+                <img src="lion.jpg" alt="Lion">
+                <h3>Lion</h3>
+                <p>The king of the jungle.</p>
+            </div>
+            <div class="animal-card">
+                <img src="dolphin.jpg" alt="Dolphin">
+                <h3>Dolphin</h3>
+                <p>Intelligent and playful marine mammals.</p>
+            </div>
+            <!-- Add more featured animals -->
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Virtual Zoo. All rights reserved.</p>
+    </footer>
+</body>
+</html>

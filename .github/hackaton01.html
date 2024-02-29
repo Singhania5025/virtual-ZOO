@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <a href="about.html"></a>
+    <a href="adventure.html"></a>
+    <a href="action.html"></a>
+    <a href="biography.html"></a>
+    <a href="comedy.html"></a>
+    <a href="contact.html"></a>
+    <a href="drama.html"></a>
+    <a href="event.html"></a>
+    <div class="login-container">
+        <h2>Login</h2>
+        <form id="login-form" method="post" action="login.php">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" placeholder="Enter your username" required>
+            
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="Enter your password" required>
+            
+            <button type="submit" onclick="func()">Login</button>
+        </form>
+    </div>
+    <script>
+        function func(){
+            var text = document.getElementById("username").value;
+            var pass = document.getElementById("password").value;
+            if(text == 'reshu@gmail.com'&& pass == '2034'){
+                alert("successfull !")
+                window.location.assign("adventure.html")
+            }
+            else{
+                alert("wrong entry !")
+            }
+        }
+    </script>
+</body>
+</html>
+
